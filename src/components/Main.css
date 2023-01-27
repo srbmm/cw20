@@ -1,0 +1,36 @@
+.container{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    width: 50%;
+    overflow: auto;
+    height: 100%;
+}
+::-webkit-scrollbar {
+    width: 0.75rem;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    border-radius: 0.25rem;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #afa8a8;
+    width: 0.25rem;
+    border-radius: 0.25rem;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #938c8c;
+}
